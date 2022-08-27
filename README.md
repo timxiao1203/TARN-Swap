@@ -1,6 +1,6 @@
 # TARN-Swap
 
-A target accumulated redemption note (TARN) is a structured coupon bond that will be compulsively terminated one the accumulated coupon breaches a pre-determined barrier. If structured coupons in a TARN are functions of some selected index interest rates, the TARN is called interest rate TARN.
+A target accumulated redemption note (TARN) is a structured coupon bond that will be compulsively terminated one the accumulated coupon breaches a pre-determined barrier (see https://finpricing.com/lib/EqBarrier.html). If structured coupons in a TARN are functions of some selected index interest rates, the TARN is called interest rate TARN.
 
 In particular, if structured coupons are functions of a single selected index rate, it is called single index interest rate TARN. These functions are usually affine-linear with respect to the index rate and may be capped and floored.
 
@@ -23,15 +23,6 @@ For cap-floor leg, the coupon rates are defined with a single specified term ind
 
 Interest rate payments for both legs are uncertain at the beginning of the contract. To avoid trivial cases, we assume that a valuation time t is always prior to fixing times provided specified otherwise. The time-t value of the swap is thus the sum of tine-t values of the two legs.
 
-
-
-Reference:
-
-https://finpricing.com/lib/EqLookback.html
-
-https://zenodo.org/record/6608776#.YpkQsqgpDq4
-
-https://zenodo.org/record/6608776/files/irTarn.pdf
 
 
 
